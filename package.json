@@ -1,6 +1,6 @@
 {
   "name": "grpc-error",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Utility Error class suitable for gRPC error responses",
   "main": "index.js",
   "scripts": {
