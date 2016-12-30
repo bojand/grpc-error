@@ -1,4 +1,4 @@
-# create-grpc-error
+# grpc-error
 
 Utility Error class suitable for gRPC error responses
 
