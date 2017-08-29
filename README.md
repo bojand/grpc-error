@@ -4,10 +4,16 @@ Utility Error class suitable for gRPC error responses
 
 ### Related
 
-[create-grpc-error](https://github.com/bojand/create-grpc-error) - Just a class wrapper around
-this module
+[grpc-create-error](https://github.com/bojand/grpc-create-error) - A helper function module that this class uses
+
+[grpc status codes](https://grpc.io/grpc/node/grpc.html) - The grpc status codes.
 
 ## Usage
+```js
+const GRPCError = require('grpc-error')
+const grpc require('grpc')
+const error = new GRPCError('Boom', grpc.status.INVALID_ARGUMENT)
+```
 
 ```js
 const GRPCError = require('grpc-error')

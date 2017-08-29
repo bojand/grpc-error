@@ -12,6 +12,15 @@ test('create an error just from message', t => {
   t.true(typeof err.metadata === 'undefined')
 })
 
+test('create an error from message and grpc status code', t => {
+  const err = new GRPCError('Boom', grpc.status.INVALID_ARGUMENT)
+  t.truthy(err)
+  t.true(err instanceof Error)
+  t.is(err.message, 'Boom')
+  t.is(err.code, grpc.status.INVALID_ARGUMENT)
+  t.true(typeof err.metadata === 'undefined')
+})
+
 test('create an error from message and code as integer', t => {
   const err = new GRPCError('Boom', 1000)
   t.truthy(err)
