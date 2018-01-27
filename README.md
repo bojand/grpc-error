@@ -1,5 +1,7 @@
 # grpc-error
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/bojand/grpc-error.svg)](https://greenkeeper.io/)
+
 Utility Error class suitable for gRPC error responses
 
 ### Related
