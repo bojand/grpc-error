@@ -28,7 +28,7 @@
     "grpc-create-error": "^1.0.0"
   },
   "devDependencies": {
-    "ava": "^0.22.0",
+    "ava": "^0.25.0",
     "grpc": "^1.0.1",
     "standard": "^10.0.0"
   },
