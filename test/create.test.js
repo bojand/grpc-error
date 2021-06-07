@@ -1,5 +1,5 @@
 import test from 'ava'
-import grpc from 'grpc'
+import * as grpc from '@grpc/grpc-js'
 
 import GRPCError from '../'
 

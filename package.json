@@ -25,11 +25,11 @@
     "grpc"
   ],
   "dependencies": {
-    "grpc-create-error": "^1.0.0"
+    "grpc-create-error": "^2.0.0"
   },
   "devDependencies": {
     "ava": "^0.22.0",
-    "grpc": "^1.0.1",
+    "@grpc/grpc-js": "^1.2.5",
     "standard": "^10.0.0"
   },
   "directories": {
@@ -41,6 +41,6 @@
     ]
   },
   "engines": {
-    "node": ">=6.9.0"
+    "node": ">=8.0.0"
   }
 }
